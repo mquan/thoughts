@@ -70,3 +70,6 @@ So how do we make standups less disruptive and more effective. I found the follo
 - Limit the number of participants such that the main updates won’t take more than 15mins. It’s better to have two separate standups than a single large one. If there are clear partitions, a portion of the team will zone out when the other is talking.
 
 Disagree or have a better approach? I’d love to hear from you.
+
+Final note: I purposely left out async video standups because I haven't personally experienced them. Though I'm not quite sure how async videos don't suffer from the same problems stemming from the lack of interactivity described above. Additionally, the recording component makes me a little uneasy.
+
