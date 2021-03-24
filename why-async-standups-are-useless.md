@@ -26,7 +26,7 @@ The main arguments against standups in general are
 
 - **Standups are disruptive to the maker’s schedule**.
 
-  This is true and is exacerbated when factoring in multiple time zones and differences in everyone’s schedule. I consider this a necessary tradeoff for the benefits standups bring. If there’s a tool out there that allows teams to have effective yet low cost communication while not hammering focus and productivity, I’m all ears.
+  This is true and is exacerbated when factoring in multiple time zones and differences in everyone’s schedule. I consider this a necessary tradeoff for the benefits standups bring. Similar to sports, team meetings and practice are just as important as personal training/development. If there’s a tool out there that allows teams to have effective yet low cost communication while not hammering focus and productivity, I’m all ears.
 
 &nbsp;
 
