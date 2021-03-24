@@ -16,15 +16,13 @@ The main arguments against standups in general are
   
 &nbsp;
 
-
 - **Standups are oppressive tools used only to serve micro-managers**.
 
-  If your organization is using standup as a tool for bosses to check on people’s progress then you’re doing it wrong. It’s actually quite easy to spot an underperformer, you don’t need a daily list for that. But I find this more often a paranoia harboured by individuals (including myself earlier in my career) who narrowly define success in terms of their individual output instead of performance of the team as a whole. As a team lead, my number one priority is making sure everyone is unblocked and we're moving in the right direction.
+  If your organization is using standups as a tool for bosses to check on people’s progress then you’re doing your people a diservice. However, I find this more often a paranoia harboured by individuals (including myself earlier in my career) who narrowly define success in terms of their individual output instead of performance of the team as a whole. It’s actually quite easy to spot an underperformer, you don’t need a daily list for that. As a team lead, my number one priority is making sure everyone is unblocked and we're moving in the right direction.
 
-  In every team sport, team members constantly huddle to communicate and discuss adjustments whether for a minute during timeouts or just a few seconds between plays. It makes sense for software teams to incrementally evaluate if they’re moving in the right direction in standups (timeouts) even if they have pre and post game meetings. In my opinion, software development is a team sport but the reason there’s resistance to group syncs probably has to do with the next argument against standups or meetings in general.
+  In every team sport, team members constantly huddle to communicate and discuss adjustments whether for a minute during timeouts or just a few seconds between plays. It makes sense for software teams to continuously evaluate if they’re moving in the right direction in standups (timeouts) even if they have pre and post game meetings (plannings and retros). In my opinion, software development is a team sport but the reason there’s resistance to group syncs probably has to do with the next argument against standups or meetings in general.
 
 &nbsp;
-
 
 - **Standups are disruptive to the maker’s schedule**.
 
@@ -38,7 +36,7 @@ The main benefits I derive from in-person standups are
 1. Awareness - help the team stay in sync. Even when you don’t find your teammates’ updates immediately useful, they can come in handy in the future
 2. More importantly standups provide an interactive forum to identify issues/blockers and course correct
 
-We don’t know what we don’t know. Without a regular sync, it’s very easy for engineers, especially more junior ones, to blissfully think they are not blocked, or that they’re working on the right problem, or their approach is the right one, or the solution does not already exist.
+We don’t know what we don’t know. Without a regular sync, it’s very easy for engineers, especially more junior ones, to blissfully think we are not blocked, or that we’re working on the right problem, or our approach is the right one, or the solution does not already exist.
 
 With in-person standups, I regularly experience the following exchange
 
@@ -54,13 +52,13 @@ With in-person standups, I regularly experience the following exchange
 
 The low cost of verbal communication allows B and C to interject and surface a potentially overlooked problem quickly. Obviously, it can be a double-edged sword when you’re not disciplined or you have talkative teammates who love to deep dive into everything. This problem can be mitigated by deferring longer discussions until after everyone’s done and into smaller groups.
 
-I’ve yet to consistently experience similar discussions in async standups. Async standups are good at allowing team members to fire off their status. But that’s about it. When standup is an exercise of reporting what you did yesterday and what you’re going to do today, you’ll tend to focus solely on your own work and miss out on learning what your teammates are up to. Even when you’re intentional about reading all your teammates’ updates, the async nature makes the task almost impossible because:
+I’ve yet to consistently experience similar discussions in async standups. Async standups are good at allowing team members to fire off their status. But that’s about it. When standup is an exercise of reporting what you did yesterday and what you’re going to do today, you’ll tend to focus solely on your own work and miss out on learning what your teammates are up to. Even when you’re intentional about reading all your team's updates, the async nature makes the task almost impossible because:
 
-- **Status updates can be delayed over the span of several hours**. Slack allows you to set up daily reminders at a specific time, but updates are still spread out throughout the day. It’s not practical for everyone to keep checking on them. Most people simply send their updates and ignore the thread. It can also be detrimental to your focus when you get notified of a new update every 30 minutes or so. A 15-minute in-person standup at a set time seems like a more reasonable option to me.
+- **Status updates can be delayed over the span of several hours**. Slack allows you to set up daily reminders at a specific time, but updates are often spread out throughout the day depending on everyone's schedules. It’s not practical for everyone to keep checking on them. Most people simply send their updates and ignore the thread. It can also be detrimental to your focus when you get notified of a new update every 30 minutes or so. A 15-minute in-person standup at a set time seems like a more reasonable option to me.
 
-- **Text format adds friction and does not encourage interactivity**. On slack, if you want to discuss a specific item, you must refer to it and mention the relevant owners. That’s a lot more friction than in person where you just follow up right after the person mentions it. Moreover, the fear of making the standup thread noisy with your potentially off-topic discussions or ‘dumb questions’ may prevent you from discussing it altogether or at least prompt you to carry the exchange in DMs, which suffer from the next problem
+- **Text format adds friction and does not encourage interaction**. On slack, if you want to discuss a specific item, you must refer to it and mention the relevant owners. That’s a lot more friction than in person where you just follow up right after the person mentions it. Moreover, the fear of making the standup thread noisy with your potentially off-topic discussions or ‘dumb questions’ may prevent you from discussing it altogether or at least prompt you to carry the exchange in DMs, which suffer from the next problem
 
-- **The exchange may involve multiple parties to surface a relevant discussion**. In person, when one person gives their updates, others listen in parallel. Even when you zone out, someone else such as a lead may serve as the connector and pull you in when a relevant item is mentioned. On slack, it’s unlikely multiple people happen to focus on the same item at the same time. Moreover, a missing piece of crucial information can end the discussion and hence the opportunity to spot a potential problem earlier. 
+- **The exchange may involve multiple parties to surface a relevant discussion**. In person, when one person updates to the team, others listen in parallel. Even when you zone out, someone else such as a lead may serve as the connector and pull you in when a relevant item is mentioned. On slack, it’s unlikely multiple people happen to focus on the same item at the same time. Moreover, a missing piece of crucial information can end the discussion and hence the opportunity to spot a potential problem earlier. 
 
 So how do we make standups less disruptive and more effective. I found the following tweaks work well
 
