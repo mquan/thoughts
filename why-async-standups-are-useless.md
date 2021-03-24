@@ -20,7 +20,7 @@ The main arguments against standups in general are
 
   If your organization is using standups as a tool for bosses to check on people’s progress then you’re doing your people a diservice. However, I find this more often a paranoia harboured by individuals (including myself earlier in my career) who narrowly define success in terms of their individual output instead of performance of the team as a whole. It’s actually quite easy to spot an underperformer, you don’t need a daily list for that. As a team lead, my number one priority is making sure everyone is unblocked and we're moving in the right direction.
 
-  In every team sport, team members constantly huddle to communicate and discuss adjustments whether for a minute during timeouts or just a few seconds between plays. It makes sense for software teams to continuously evaluate if they’re moving in the right direction in standups (timeouts) even if they have pre and post game meetings (plannings and retros). In my opinion, software development is a team sport but the reason there’s resistance to group syncs probably has to do with the next argument against standups or meetings in general.
+  In every team sport, team members constantly huddle to communicate and discuss adjustments whether for a minute during timeouts or just a few seconds between plays. It makes sense for software teams to continuously evaluate if they’re moving in the right direction in standups (timeouts) even if they have plannings and retros (pre and post game meetings). In my opinion, software development is a team sport but the reason there’s resistance to group syncs probably has to do with the next argument against standups or meetings in general.
 
 &nbsp;
 
