@@ -1,4 +1,4 @@
-# Why Async Standups Are Useless
+# Why Async Standups Don't Work
 
 If you work in a team environment then you often need to interactively exchange information with the rest of the team at a regular cadence. In software development, this often comes in the form of standups. Traditionally, standups are synchronous meetings in person or more commonly on video calls now that more teams are fully remote - I’ll classify these as in-person standups from here on out. However, in many teams that I’ve been a part of, there’s a tendency to opt for standups via team messaging apps in the name of productivity - I’ll refer to this format as async standups. 
 
