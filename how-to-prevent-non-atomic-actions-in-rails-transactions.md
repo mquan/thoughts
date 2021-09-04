@@ -78,7 +78,7 @@ ActiveRecord::Transaction.do
 end
 ```
 
-It could be transactions all the way up! Our problem would be solved if we could leave the non-atomic code inside transaction but execute them after the transaction? We know that `ActiveRecord` models can have `after_commit` hooks that are executed after the transaction complete. Wouldn't it be nice if we can use after_commit everywhere? That's exactly the solution provided by the gem, you guessed it, [after_commit_everywhere](https://github.com/Envek/after_commit_everywhere). After installation, you'll be able to safely colocate non-atomic code inside transactions by wrapping them in `after_commit` blocks as follow.
+It could be transactions all the way up! Our problem would be solved if we could leave the non-atomic code inside transaction but execute them after the transaction. We know that `ActiveRecord` models can have `after_commit` hooks that are executed after the transaction complete. Wouldn't it be nice if we can use after_commit everywhere? That's exactly the solution provided by the gem, you guessed it, [after_commit_everywhere](https://github.com/Envek/after_commit_everywhere). After installation, you'll be able to safely colocate non-atomic code inside transactions by wrapping them in `after_commit` blocks as follow.
 
 ```ruby
 class AccountService
