@@ -1,6 +1,6 @@
 # How to prevent non-atomic actions in Rails transactions
 
-In Rails applications, we typically wrap database changes that are required to succeed as a single atomic action in an `ActiveRecord::Transaction`. However, transactions can sometimes include actions that are not SQL statements. When these actions are network calls or async processes, they can yield results that are difficult to rollback or worse introduce bugs that are tricky to identify. In this post, we'll look at what problems these non-atomic actions pose and walk through a few examples of how to fix them. We'll also cover [isolator](https://github.com/palkan/isolator), a gem that helps us detect these non-atomic violations.
+In Rails applications, we typically wrap database changes that are required to succeed as a single atomic action in an `ActiveRecord::Transaction`. However, transactions can sometimes include actions that are not SQL statements. When these actions are network calls, notifications, or async processes, they can yield results that are difficult to rollback or worse introduce bugs that are tricky to identify. In this post, we'll look at what problems these non-atomic actions pose and walk through a few examples of how to fix them. We'll also cover [isolator](https://github.com/palkan/isolator), a gem that helps us detect these non-atomic violations.
 
 ### A tale of a transaction
 
