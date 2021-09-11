@@ -126,7 +126,26 @@ As we've seen in this section, the fixes aren't difficult once we identified the
 
 The [isolator](https://github.com/palkan/isolator) gem, maintained by [Vladimir Dementyev](https://github.com/palkan) who is insanely productive and responsive, helps automate the task of detecting these non-atomic actions. It tracks whether we're in a transaction and raises an error when a non-atomic action is invoked. The gem comes with several useful default adapters that can detect http calls, mailers, and background jobs (sidekiq and resque are also supported). You can also add custom adapters to support your application's needs.
 
-Internally, isolator keeps a transactions count for each database. It monitors every SQL statement to detect a beginning or end of a transaction and increments/decrements the count accordingly. Because of this overhead, it's not recommended to use isolator in production. We enable it in test environment and rely on our high test coverage to surface non-atomic violations in CI. Here's a sample output of a violation
+Internally, isolator keeps a transaction count for each database. It monitors every SQL statement to detect a beginning or end of a transaction and increments/decrements the count accordingly. Because of this overhead, it's not recommended to use isolator in production. We enable it in our test environment and rely on our high test coverage to surface non-atomic violations in CI.
+
+Isolator is pretty smart about detecting dependencies and automatically configures the relevant adapters when it initializes. For this reason, we install it with `require: false` option and load it as part of spec support when all core dependencies are already loaded.
+
+```ruby
+group(:test) do
+  gem 'isolator', require: false
+end
+```
+
+In a large code base you may find it's overwhelming to fix all the violations all at once. A strategy that works really well for us is to deal with violations one category at a time. By disabling all adapters and re-enabling one by one we get to control when to apply the fixes. For instance, here's how to disable the http adapter for the entire test suite.
+
+```ruby
+# spec/support/isolator.rb
+require 'isolator'
+
+Isolator.adapters.http.disable!
+```
+
+Once installed, isolator will surface non-atomic violations if a test invokes the code path that contains the problem. Here's a sample output of a violation that occurs when a background job is enqueued inside a transaction:
 
 <img width="1068" alt="Screen Shot 2021-09-04 at 9 15 44 AM" src="https://user-images.githubusercontent.com/138784/132102010-68080e96-b299-4c29-bc55-ada5e4d2c318.png">
 
