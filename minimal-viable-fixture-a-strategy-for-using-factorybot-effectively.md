@@ -66,7 +66,7 @@ You may have also seen this common variant
 user_id { 1 }
 ```
 
-These implementations are made possible because the Employee model validates presence of the `user_id` (or missing it altogether) instead of simply requiring the `user` association. This design choice implies that you cannot create both user and employee in the same transaction. Furthermore, your employee records can continue operate with invalid user references even when they're removed. In this case we should be using the user factory to ensure there's a valid associated user in your test setup.
+These implementations are made possible because the Employee model validates presence of the `user_id` (or missing it altogether) instead of simply requiring the `user` association. This design choice implies that you cannot create both user and employee as an atomic action, user must come first to provide a user_id that's required by Employee. Furthermore, your employee records can continue operate with invalid user references even when the associated users are removed. In this case we should be using the user factory to ensure there's a valid associated user in your test setup.
 
 ```ruby
 association :user
