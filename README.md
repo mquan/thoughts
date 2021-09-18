@@ -1,7 +1,7 @@
 # Thoughts
 
 ### Processes
-- [The Bus to Abilene and Retro](https://github.com/mquan/thoughts/blob/main/the-bus-to-abilene-and-retros.md)
+- [The Bus to Abilene and Retros](https://github.com/mquan/thoughts/blob/main/the-bus-to-abilene-and-retros.md)
 - [Why async standups don't work](https://github.com/mquan/thoughts/blob/main/why-async-standups-dont-work.md)
 
 ### Coding
