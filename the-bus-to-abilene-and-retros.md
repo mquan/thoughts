@@ -47,14 +47,14 @@ As an avenue for teams to resolve real issues, retros can be detrimental to well
 ### 2. Retros encourage isolated analysis
 First, retros scopes tend to be narrow with a small lookback window, typically defined by whatever cadence between the retros is. It's a sensible strategy, we should attend to the most urgent problems. Like evicted caches, problems that are 2-3 cycles old and aren't currently raised should be deprioritized. They may already be resolved or not as severe relative to the current set of problems.
 
-We're biased toward improving the status quo which is often uneventful much like the situation that compels the family in the paradox to consider the 50-mile trip. Like the family, we often take for granted how well things are currently going.
+Next, we're biased toward improving the status quo which is often uneventful much like the situation that compels the family in the paradox to consider the 50-mile trip. Like the family, we often take for granted how well things are currently going.
 
 When a problem is identified, it's often magnified and analyzed as if it exists in a vaccuum isolated from other team dynamics. This mode of thinking invariably leads to the same issue when analyzing the solution, namely there's never a rigorous and comprehensive cost-benefit analysis of the solution.
 
 ### 3. Retros encourage reactive solutions
-As throughful and engaging retro discussions can be, they typically fail to take into account externalities introduced by the proposed solutions. The proposed solutions often lack foresights and usually take the form of doing the opposite of the problem. They resemble bug fixes that focus on fixing the immediate errors without weighing the side effects or larger tech debts introduced by the quick & dirty patch.
+As throughful and engaging retro discussions can be, they typically fail to take into account externalities introduced by the proposed solutions. This is partly due to the pressure to resolve issues within a timeboxed period. The proposed solutions often lack foresights and usually take the form of doing the opposite of the problem. They resemble bug fixes that focus exclusively on making the errors go away without weighing the side effects or larger tech debts introduced by the quick & dirty patch.
 
-Instituting team changes should be treated like introducing breaking changes to a public API. Conceptually, that's exactly what they are. A process change is a destructive two step process, 1) modifying/removing some existing processes and 2) adding a new one. Even when the change is purely additive, we often fail to analyze the cost of implementing and enforcing it. In the paradox, the family attempts to solve their boredom by introducing a change:
+Instituting team changes should be treated like introducing breaking changes to a public API. Conceptually, that's exactly what they are. A process change is a destructive process that breaks existing behaviors of many of its consumers - team members. It involves 1) modifying/removing some existing processes and 2) adding a new one. Even when the change is purely additive, we often fail to analyze the cost of implementing and enforcing it properly. In the paradox, the family attempts to solve their boredom by introducing a change:
 
 1) forgoing their comfortable condition at home
 2) taking the 50-mile bus ride
@@ -63,5 +63,5 @@ As a group, they failed to consider the cost of the hot, dusty, and long bus rid
 
 ### Conclusion
 
-I'm not going to pretend I know what the solution is. My hunch is a rigorous yet simple framework to comprehensively analyze the problem as well as the solution. For now, I hope we at least stop to rethink when a team member utters, 'Are we on a bus to Abilene?'
+I'm not going to pretend I know what the solution for more efffective retros is. My hunch is a rigorous yet simple framework to comprehensively analyze the problem as well as the solution. For now, I hope we at least stop to rethink when a team member utters, 'Are we on a bus to Abilene?'
 
